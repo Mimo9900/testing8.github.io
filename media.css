@@ -1,0 +1,55 @@
+
+
+
+@media(max-width: 428px) {
+    .header{
+      
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+   .search {
+       
+      font-size: 12px;
+      width: 80%;
+      height: 30px;
+      -webkit-touch-action: manipulation;
+        touch-action: manipulation;
+        user-select: none; 
+    }
+    
+    
+    .search1{
+       height: 20px;
+       width: 20px;
+       stroke: #0a0a0a;
+        position: absolute;
+        top: 50%; transform: translateY(-50%); 
+         right: 50px;
+    }
+
+    
+    .modal{
+        width: 80%;
+        height: 100vh;
+        margin: auto 30px;
+    }
+    .detals-ofpeople{
+        margin: auto;
+        text-align: center;
+        height: 70px;
+        width: 40%;
+    }
+    .people {
+        height: auto;
+        width: auto;
+    }
+    a{
+        font-size: 16px;
+    }
+    .productNumber {
+        display: none;
+    }
+    
+   
+}
